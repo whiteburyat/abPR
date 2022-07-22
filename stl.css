@@ -1,0 +1,177 @@
+
+body {
+    color: rgb(30, 30, 30);
+    background-color: rgb(220, 255, 255);
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cnt{
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.izo{
+    display: inline-block;
+}
+
+.blc1{
+    background-color: #277BDC;
+    /* max-width: 100%; */
+    min-height: 400px;
+}
+
+.blc2{
+    background-color: #ffffff;
+    /* max-width: 100%; */
+    min-height: 400px;
+} 
+
+.zgl {
+    margin: auto;
+    margin-top: 200px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    max-width: 1000px;
+    text-align: left;
+    display: inline-block;
+}  
+
+.langs{
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    max-width: 900px;
+    text-align: left;
+    display: inline-block;
+}
+.desc{
+    margin-top: 50px;
+}
+
+.langs img:nth-child(2),
+.langs img:nth-child(3){
+    margin-left: 60px;
+}
+
+.html_{
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    max-width: 900px;
+    text-align: left;
+    display: inline-block;
+}
+
+/* .html > .opr1,
+.html > .izo{
+    display: flex;
+} */
+
+.opr1{
+    margin-left: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #ffffff57;
+    padding: 5px;
+    border-radius: 20px;
+    height: 100%;
+    max-width: 500px;
+    display: inline-block;
+}
+
+.opr1 > p{
+    color: rgb(22, 29, 2);
+}
+
+.opr1 > p > i{
+    color: rgb(110, 66, 66);
+}
+
+.css_{
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    max-width: 900px;
+    text-align: left;
+    display: inline-block;
+}
+
+.opr2{
+    margin-left: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #98c7fc85;
+    padding: 5px;
+    border-radius: 20px;
+    height: 100%;
+    max-width: 500px;
+    display: inline-block;
+}
+
+.opr2 > p > i{
+    color: rgb(120, 113, 255);
+}
+
+.opr2 > p > span{
+    color: red;
+}
+
+.js_{
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    max-width: 900px;
+    text-align: left;
+    display: inline-block;
+}
+
+.opr3{
+    margin-left: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #ffffff57;
+    padding: 5px;
+    border-radius: 20px;
+    max-height: 100%;
+    max-width: 500px;
+    display: inline-block;
+}
+
+.izo2{
+    /* margin-top: 50px; */
+    display: inline-block;
+}
+
+a{
+    color: rgb(118, 141, 55);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgb(126, 139, 89);
+}
